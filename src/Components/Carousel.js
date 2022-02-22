@@ -15,8 +15,7 @@ export default function CarouselCard() {
         fetch("https://shrey-myblog.herokuapp.com/project", requestOptions)
         .then(response => response.json())
         .then(result => {
-            console.log(result[0].img)
-            setItem(result)
+          setItem(result)
         })
         .catch(error => console.log('error', error));
         // eslint-disable-next-line
@@ -27,7 +26,7 @@ export default function CarouselCard() {
           <Carousel>
             {
               items.map((det,index) => 
-              <ProjectCard key={det.id} index={index+1} url={det.url} desc={det.desc} name={det.title} img={det.img}/>
+              <ProjectCard key={det.id} index={index+1} url={det.url} desc={det.desc} name={det.title} img={det.img.slice(0,-15)}/>
               )
             }
           </Carousel>

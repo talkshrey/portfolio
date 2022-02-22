@@ -10,17 +10,16 @@ export default function About() {
                 <Grid item xs={12} md={7} sm={7} sx={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <Flip/>   
                 </Grid>
-                <Grid item xs={12} md={5} sm={5} sx={{paddingInline:'2%', textAlign:'justify'}}>
+                <Grid item xs={12} md={5} sm={5} sx={{paddingInline:'2%', textAlign:'center'}}>
                     <h2> Hi, I am Shrey Parekh. </h2>
-                    <span className="typer"> I'm </span>
                     <Typed
                     className="typer"
                     strings={[
-                      "a Fullstack Developer",
-                      "an ML Developer",
-                      "a Pentester",
-                      "an IOT developer",
-                      "an Open Source Contributor",
+                      "I'm a Fullstack Developer",
+                      "I'm an ML Developer",
+                      "I'm a Pentester",
+                      "I'm an IOT developer",
+                      "I'm an Open Source Contributor",
                       "Why you still here?"
                     ]}
                     typeSpeed={80}

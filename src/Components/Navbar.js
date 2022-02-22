@@ -95,8 +95,8 @@ const Navbar = () => {
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Link to={page} spy={true} smooth={true}>
+            {pages.map((page, index) => (
+              <Link to={page} key={index} spy={true} smooth={true}>
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}

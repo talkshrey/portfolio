@@ -25,10 +25,10 @@ export default function Flip() {
               <img src={shrey} alt="shrey" className="shrey"/>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={6}>
-              <section>
+              <div>
               <p style={{fontSize:'1.2rem', fontWeight:'600'}}> SHREY PAREKH </p>
               <p style={{fontSize:'1rem'}}> Fullstack Developer </p>
-              </section>
+              </div>
               <div style={{paddingInline:'8%', paddingBlock:'8%'}}>
                 <div className="card-icon"> <EmailIcon/> &nbsp; talkshrey@gmail.com </div>
                 <div className="card-icon"> <PhoneIcon/> &emsp; 9833447698 </div>

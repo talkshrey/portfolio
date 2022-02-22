@@ -25,7 +25,7 @@ export default function Domains() {
   }
   return (
     <center id="Domains">
-      <div style={{ textAlign: "center", paddingInline: "10%", paddingTop:'5%' }}>
+      <div style={{ textAlign: "center", paddingInline: "10%", paddingTop:'4%' }}>
         <h3> Domains </h3>
         <Grid container>
           <Grid item style={{ paddingBlock: "2%" }} xs={12} sm={4} md={4}>
