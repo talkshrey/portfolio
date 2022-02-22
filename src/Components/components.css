@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.MuiButton-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.MuiTypography-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.MuiInputLabel-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.MuiOutlinedInput-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.Mui-focused {
+  font-family: "Poppins", sans-serif !important;
+  color: black !important;
+  border-radius: 9px !important;
+}
+
+.MuiFab-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.typer {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.15);
+  background-image: url('../Assets/portfolio.png');
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  line-height: 10px;
+  color: black;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-block: 3%;
+  padding-inline: 8%;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
+
+.card-icon {
+  display:flex;
+  align-items:center;
+  justify-content:left;
+  font-size:1rem;
+  padding-block:3%;
+}
+
+.icons {
+  color: white;
+  padding: 10%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.label {
+  padding-inline: 10%;
+}
+
+.img {
+  width: 70%;
+}
+
+.shrey {
+  width: 70%;
+  border-radius: 70%;
+}
+
+@media (max-width: 700px) {
+  .label {
+    display: none;
+    padding: 0%;
+  }
+  .side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .social {
+    padding-inline: 2%;
+  }
+  .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
