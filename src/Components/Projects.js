@@ -25,11 +25,13 @@ export default function Projects() {
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={6}>
                     <Typography variant='h6' my={5}> Projects completed <br/>
-                    <CountUp end={40} duration={3} onStart={onStart} onEnd={onEnd} containerProps={containerProps}/>
+                    <CountUp end={17} duration={3} onStart={onStart} onEnd={onEnd} containerProps={containerProps}/>
                     </Typography>
-
+                    <Typography variant='h6' my={5}> Projects contributed <br/>
+                    <CountUp end={8} duration={3} onStart={onStart} onEnd={onEnd} containerProps={containerProps}/>
+                    </Typography>
                     <Typography variant='h6' my={5}> Ongoing projects <br/>
-                    <CountUp end={5} duration={3}/>
+                    <CountUp end={2} duration={3}/>
                     </Typography>
 
                     <img align="center" className='img' src="https://github-readme-streak-stats.herokuapp.com/?user=talkshrey" alt="shrey parekh" />

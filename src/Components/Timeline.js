@@ -45,6 +45,16 @@ export default function OppositeContentTimeline() {
               </TimelineSeparator>
               <TimelineContent> <span> DJ Sanghvi <br/> College of Engg. </span> <br/> <span style={{fontSize:'14px'}}> CGPA - 9.59 </span> </TimelineContent>
             </TimelineItem>
+            <TimelineItem>
+              <TimelineOppositeContent color="text.secondary">
+                2022 <br/> Tech Internship
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent> <span> Keyway Solutions </span> <br/> <span style={{fontSize:'14px'}}> Typescript, React </span> </TimelineContent>
+            </TimelineItem>
           </Timeline>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>

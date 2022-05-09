@@ -6,22 +6,22 @@ import data from "../Assets/data-science.png";
 import hacker from "../Assets/hacker.png";
 import neural from "../Assets/neural.png";
 import sensor from "../Assets/sensor.png";
-import vr from "../Assets/vr-goggles.png";
+import cp from "../Assets/cp.png";
 import web from "../Assets/web-programming.png";
 import DomainCard from "./DomainCard";
 
 export default function Domains() {
 
   const desc = {
-    web: 'HTML,CSS,JavaScript,React,Django',
-    hack: 'Certified ethical hacking (CEH) training',
-    ml: 'Deep Learning-CV,CNN,NLP',
-    ds: 'Data Visualisation',
-    iot: 'Arduino,ROS,Sensors',
-    cloud: 'Google Cloud,Deployment, CI/CD',
-    vr: 'Spark AR filters',
-    block: 'Smart Contracts',
-    app: 'Android App dev, Kotlin',
+    web: 'Familiar with frontend (HTML, CSS, Javascript, Typescript, React), Backend (Django)',
+    hack: 'Received CEH (certified ethical hacking) training, practising pentesting on websites',
+    ml: 'Studied about Deep learning (focused more towards CNN and CV based projects',
+    ds: 'Basics of data visualization, preprocessing',
+    iot: 'Efficient in coding arduino with sensors, buzzers etc. Studied about ROS applications.',
+    cloud: 'Deployed websites and bots on cloud, used Docker to contribute in a project. ',
+    cp: 'Practised on platforms like codechef, hacker rank',
+    block: 'Developed smart contracts using solidity, familiar with tools like Ganache, Metamask',
+    app: 'Learnt to develop simple designs on Android Studio using kotlin',
   }
   return (
     <center id="Domains">
@@ -51,7 +51,7 @@ export default function Domains() {
         </Grid>
         <Grid container spacing={2}>
           <Grid item style={{ paddingBlock: "2%" }} xs={12} sm={4} md={4}>
-            <DomainCard img={vr} name="AR/VR" desc={desc.vr}/>
+            <DomainCard img={cp} name="Algorithms" desc={desc.cp}/>
           </Grid>
           <Grid item style={{ paddingBlock: "2%" }} xs={12} sm={4} md={4}>
             <DomainCard img={blockchain} name="Blockchain" desc={desc.block}/>
