@@ -15,7 +15,7 @@ export default function Resume() {
             <center style={{ height: "70vh"}}>
               <h3> Resume </h3>
               <iframe
-                src="https://drive.google.com/file/d/11rpxK-pqYUZfHk65LshdUPq0VXcEqkTn/preview"
+                src="https://drive.google.com/file/d/1kjmZvpLPk8AVpkE6K6G3XejmSniTtQAd/preview"
                 width="300vh"
                 height="420vh"
                 allow="autoplay"
