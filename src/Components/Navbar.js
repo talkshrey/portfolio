@@ -9,8 +9,6 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { useState } from "react";
-import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "./components.css";
 import { Link } from "react-scroll";
@@ -19,7 +17,7 @@ const pages = ["Details", "Domains", "Projects", "Contact"];
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
-  const [theme, setTheme] = useState(true);
+  // const [theme, setTheme] = useState(true);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -28,10 +26,6 @@ const Navbar = () => {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
-  function changeTheme() {
-    theme === true ? setTheme(false) : setTheme(true);
-  }
 
   return (
     <AppBar
@@ -125,13 +119,6 @@ const Navbar = () => {
               >
               <GitHubIcon sx={{color:'black'}} />
               </a>
-            </IconButton>
-            <IconButton onClick={changeTheme}>
-              {theme === true ? (
-                <WbSunnyOutlinedIcon />
-              ) : (
-                <DarkModeOutlinedIcon />
-              )}
             </IconButton>
           </Box>
         </Toolbar>
