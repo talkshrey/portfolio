@@ -98,7 +98,7 @@ export default function Contact() {
                 />
               </a>
               <a
-                href="https://twitter.com/Shrey68767170"
+                href="https://twitter.com/talkshrey"
                 target="_blank"
                 rel="noreferrer"
               >

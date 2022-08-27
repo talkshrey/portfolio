@@ -40,7 +40,7 @@ export default function Flip() {
           <Grid container spacing={0} style={{paddingTop:'8%'}}>
             <Grid item xs={12} sm={12} md={12} lg={6} className="grid">
               <div className="social">
-                <a href="https://twitter.com/Shrey68767170" target="_blank" rel="noreferrer"> <TwitterIcon className="icons" fontSize="large"/> </a>
+                <a href="https://twitter.com/talkshrey" target="_blank" rel="noreferrer"> <TwitterIcon className="icons" fontSize="large"/> </a>
                 <span className="label"> @Shrey68767170 </span> 
               </div>
               <div className="social">
